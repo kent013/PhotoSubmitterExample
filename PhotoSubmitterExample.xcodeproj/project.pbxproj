@@ -18,52 +18,50 @@
 		7901A0831505F4B8003DA0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A06A1505F4B7003DA0DC /* Foundation.framework */; };
 		7901A08B1505F4B8003DA0DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0891505F4B8003DA0DC /* InfoPlist.strings */; };
 		7901A08E1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A08D1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m */; };
-		7901A0D41505F4E1003DA0DC /* PhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A09E1505F4E1003DA0DC /* PhotoSubmitter.m */; };
-		7901A0D51505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A01505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m */; };
-		7901A0D61505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A21505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m */; };
-		7901A0D71505F4E1003DA0DC /* PhotoSubmitterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A61505F4E1003DA0DC /* PhotoSubmitterFactory.m */; };
-		7901A0D81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m */; };
-		7901A0D91505F4E1003DA0DC /* PhotoSubmitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0AA1505F4E1003DA0DC /* PhotoSubmitterManager.m */; };
-		7901A0DA1505F4E1003DA0DC /* PhotoSubmitterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0AC1505F4E1003DA0DC /* PhotoSubmitterOperation.m */; };
-		7901A0DB1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0AF1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */; };
-		7901A0DC1505F4E1003DA0DC /* PhotoSubmitterSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0B11505F4E1003DA0DC /* PhotoSubmitterSettings.m */; };
-		7901A0DD1505F4E1003DA0DC /* PSLang.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0B31505F4E1003DA0DC /* PSLang.m */; };
-		7901A0DE1505F4E1003DA0DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0B41505F4E1003DA0DC /* README.md */; };
-		7901A0DF1505F4E1003DA0DC /* PhotoSubmitter.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0B71505F4E1003DA0DC /* PhotoSubmitter.strings */; };
-		7901A0E01505F4E1003DA0DC /* strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0BA1505F4E1003DA0DC /* strings.txt */; };
-		7901A0E11505F4E1003DA0DC /* FilePhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0BE1505F4E1003DA0DC /* FilePhotoSubmitter.m */; };
-		7901A0E21505F4E1003DA0DC /* file_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C11505F4E1003DA0DC /* file_16.png */; };
-		7901A0E31505F4E1003DA0DC /* file_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C21505F4E1003DA0DC /* file_16@2x.png */; };
-		7901A0E41505F4E1003DA0DC /* file_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C31505F4E1003DA0DC /* file_32.png */; };
-		7901A0E51505F4E1003DA0DC /* file_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C41505F4E1003DA0DC /* file_32@2x.png */; };
-		7901A0E61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0C71505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */; };
-		7901A0E71505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0C91505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */; };
-		7901A0E81505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0CB1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */; };
-		7901A0E91505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0CD1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m */; };
-		7901A0EA1505F4E1003DA0DC /* PhotoSubmitterSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0D01505F4E1003DA0DC /* PhotoSubmitterSwitch.m */; };
-		7901A0EB1505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0D21505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */; };
-		7901A0EC1505F4E1003DA0DC /* strings.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0D31505F4E1003DA0DC /* strings.sh */; };
-		7901A0F11505F50E003DA0DC /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0F01505F50E003DA0DC /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A0F51505F531003DA0DC /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0F41505F531003DA0DC /* NSMutableArray+QueueAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A0FB1505F587003DA0DC /* NSData+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0F81505F587003DA0DC /* NSData+Digest.m */; };
-		7901A0FC1505F587003DA0DC /* UIImage+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0FA1505F587003DA0DC /* UIImage+Digest.m */; };
-		7901A0FF1505F5B1003DA0DC /* UIImage+EXIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0FE1505F5B1003DA0DC /* UIImage+EXIF.m */; };
-		7901A1081505F5D6003DA0DC /* FBNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1021505F5D6003DA0DC /* FBNetworkReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A1091505F5D6003DA0DC /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1051505F5D6003DA0DC /* PDKeychainBindings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A10A1505F5D6003DA0DC /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1071505F5D6003DA0DC /* PDKeychainBindingsController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A1121505F5F4003DA0DC /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A10D1505F5F4003DA0DC /* UIImage+Alpha.m */; };
-		7901A1131505F5F4003DA0DC /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A10F1505F5F4003DA0DC /* UIImage+Resize.m */; };
-		7901A1141505F5F4003DA0DC /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1111505F5F4003DA0DC /* UIImage+RoundedCorner.m */; };
-		7901A1171505F624003DA0DC /* UIImage+AutoRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1161505F624003DA0DC /* UIImage+AutoRotation.m */; };
-		7901A11C1505F644003DA0DC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1191505F644003DA0DC /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A11D1505F644003DA0DC /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A11B1505F644003DA0DC /* NSString+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7901A1201505F6AE003DA0DC /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 7901A11E1505F6AE003DA0DC /* base64.c */; };
 		7901A1221505F908003DA0DC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1211505F908003DA0DC /* AssetsLibrary.framework */; };
 		7901A1241505F914003DA0DC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1231505F914003DA0DC /* ImageIO.framework */; };
 		7901A1261505F922003DA0DC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1251505F922003DA0DC /* libicucore.dylib */; };
 		7901A1281505F930003DA0DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1271505F930003DA0DC /* CoreLocation.framework */; };
 		7901A12C1505F957003DA0DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A12B1505F957003DA0DC /* Security.framework */; };
 		7901A12E1505F980003DA0DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A12D1505F980003DA0DC /* SystemConfiguration.framework */; };
+		7901A18E1505FD7A003DA0DC /* FBNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1341505FD7A003DA0DC /* FBNetworkReachability.m */; };
+		7901A18F1505FD7A003DA0DC /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1371505FD7A003DA0DC /* NSMutableArray+QueueAdditions.m */; };
+		7901A1901505FD7A003DA0DC /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A13A1505FD7A003DA0DC /* PDKeychainBindings.m */; };
+		7901A1911505FD7A003DA0DC /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A13C1505FD7A003DA0DC /* PDKeychainBindingsController.m */; };
+		7901A1921505FD7A003DA0DC /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A13F1505FD7A003DA0DC /* RegexKitLite.m */; };
+		7901A1931505FD7A003DA0DC /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1421505FD7A003DA0DC /* UIImage+Alpha.m */; };
+		7901A1941505FD7A003DA0DC /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1441505FD7A003DA0DC /* UIImage+Resize.m */; };
+		7901A1951505FD7A003DA0DC /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1461505FD7A003DA0DC /* UIImage+RoundedCorner.m */; };
+		7901A1961505FD7A003DA0DC /* PhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1481505FD7A003DA0DC /* PhotoSubmitter.m */; };
+		7901A1971505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A14A1505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.m */; };
+		7901A1981505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A14C1505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.m */; };
+		7901A1991505FD7A003DA0DC /* PhotoSubmitterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1501505FD7A003DA0DC /* PhotoSubmitterFactory.m */; };
+		7901A19A1505FD7A003DA0DC /* PhotoSubmitterImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1521505FD7A003DA0DC /* PhotoSubmitterImageEntity.m */; };
+		7901A19B1505FD7A003DA0DC /* PhotoSubmitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1541505FD7A003DA0DC /* PhotoSubmitterManager.m */; };
+		7901A19C1505FD7A003DA0DC /* PhotoSubmitterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1561505FD7A003DA0DC /* PhotoSubmitterOperation.m */; };
+		7901A19D1505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1591505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */; };
+		7901A19E1505FD7A003DA0DC /* PhotoSubmitterSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A15B1505FD7A003DA0DC /* PhotoSubmitterSettings.m */; };
+		7901A19F1505FD7A003DA0DC /* PSLang.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A15D1505FD7A003DA0DC /* PSLang.m */; };
+		7901A1A11505FD7A003DA0DC /* PhotoSubmitter.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7901A1611505FD7A003DA0DC /* PhotoSubmitter.strings */; };
+		7901A1A21505FD7A003DA0DC /* strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7901A1641505FD7A003DA0DC /* strings.txt */; };
+		7901A1A31505FD7A003DA0DC /* FilePhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1681505FD7A003DA0DC /* FilePhotoSubmitter.m */; };
+		7901A1A41505FD7A003DA0DC /* file_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A16B1505FD7A003DA0DC /* file_16.png */; };
+		7901A1A51505FD7A003DA0DC /* file_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A16C1505FD7A003DA0DC /* file_16@2x.png */; };
+		7901A1A61505FD7A003DA0DC /* file_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A16D1505FD7A003DA0DC /* file_32.png */; };
+		7901A1A71505FD7A003DA0DC /* file_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A16E1505FD7A003DA0DC /* file_32@2x.png */; };
+		7901A1A81505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1711505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */; };
+		7901A1A91505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1731505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */; };
+		7901A1AA1505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1751505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */; };
+		7901A1AB1505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1771505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.m */; };
+		7901A1AC1505FD7A003DA0DC /* PhotoSubmitterSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A17A1505FD7A003DA0DC /* PhotoSubmitterSwitch.m */; };
+		7901A1AD1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A17C1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */; };
+		7901A1AF1505FD7A003DA0DC /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 7901A17F1505FD7A003DA0DC /* base64.c */; };
+		7901A1B01505FD7A003DA0DC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1821505FD7A003DA0DC /* NSData+Base64.m */; };
+		7901A1B11505FD7A003DA0DC /* NSData+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1841505FD7A003DA0DC /* NSData+Digest.m */; };
+		7901A1B21505FD7A003DA0DC /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1861505FD7A003DA0DC /* NSString+Base64.m */; };
+		7901A1B31505FD7A003DA0DC /* UIImage+AutoRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1881505FD7A003DA0DC /* UIImage+AutoRotation.m */; };
+		7901A1B41505FD7A003DA0DC /* UIImage+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A18A1505FD7A003DA0DC /* UIImage+Digest.m */; };
+		7901A1B51505FD7A003DA0DC /* UIImage+EXIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A18C1505FD7A003DA0DC /* UIImage+EXIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,83 +91,6 @@
 		7901A08A1505F4B8003DA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7901A08C1505F4B8003DA0DC /* PhotoSubmitterExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterExampleTests.h; sourceTree = "<group>"; };
 		7901A08D1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterExampleTests.m; sourceTree = "<group>"; };
-		7901A09D1505F4E1003DA0DC /* PhotoSubmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitter.h; sourceTree = "<group>"; };
-		7901A09E1505F4E1003DA0DC /* PhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitter.m; sourceTree = "<group>"; };
-		7901A09F1505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAccountTableViewController.h; sourceTree = "<group>"; };
-		7901A0A01505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAccountTableViewController.m; sourceTree = "<group>"; };
-		7901A0A11505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAlbumEntity.h; sourceTree = "<group>"; };
-		7901A0A21505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAlbumEntity.m; sourceTree = "<group>"; };
-		7901A0A31505F4E1003DA0DC /* PhotoSubmitterAPIKey-template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoSubmitterAPIKey-template.h"; sourceTree = "<group>"; };
-		7901A0A41505F4E1003DA0DC /* PhotoSubmitterAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAPIKey.h; sourceTree = "<group>"; };
-		7901A0A51505F4E1003DA0DC /* PhotoSubmitterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterFactory.h; sourceTree = "<group>"; };
-		7901A0A61505F4E1003DA0DC /* PhotoSubmitterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterFactory.m; sourceTree = "<group>"; };
-		7901A0A71505F4E1003DA0DC /* PhotoSubmitterImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterImageEntity.h; sourceTree = "<group>"; };
-		7901A0A81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterImageEntity.m; sourceTree = "<group>"; };
-		7901A0A91505F4E1003DA0DC /* PhotoSubmitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterManager.h; sourceTree = "<group>"; };
-		7901A0AA1505F4E1003DA0DC /* PhotoSubmitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterManager.m; sourceTree = "<group>"; };
-		7901A0AB1505F4E1003DA0DC /* PhotoSubmitterOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterOperation.h; sourceTree = "<group>"; };
-		7901A0AC1505F4E1003DA0DC /* PhotoSubmitterOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterOperation.m; sourceTree = "<group>"; };
-		7901A0AD1505F4E1003DA0DC /* PhotoSubmitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterProtocol.h; sourceTree = "<group>"; };
-		7901A0AE1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSequencialOperationQueue.h; sourceTree = "<group>"; };
-		7901A0AF1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSequencialOperationQueue.m; sourceTree = "<group>"; };
-		7901A0B01505F4E1003DA0DC /* PhotoSubmitterSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettings.h; sourceTree = "<group>"; };
-		7901A0B11505F4E1003DA0DC /* PhotoSubmitterSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSettings.m; sourceTree = "<group>"; };
-		7901A0B21505F4E1003DA0DC /* PSLang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLang.h; sourceTree = "<group>"; };
-		7901A0B31505F4E1003DA0DC /* PSLang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLang.m; sourceTree = "<group>"; };
-		7901A0B41505F4E1003DA0DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		7901A0B81505F4E1003DA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PhotoSubmitter.strings; sourceTree = "<group>"; };
-		7901A0B91505F4E1003DA0DC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PhotoSubmitter.strings; sourceTree = "<group>"; };
-		7901A0BA1505F4E1003DA0DC /* strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strings.txt; sourceTree = "<group>"; };
-		7901A0BD1505F4E1003DA0DC /* FilePhotoSubmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePhotoSubmitter.h; sourceTree = "<group>"; };
-		7901A0BE1505F4E1003DA0DC /* FilePhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePhotoSubmitter.m; sourceTree = "<group>"; };
-		7901A0C11505F4E1003DA0DC /* file_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_16.png; sourceTree = "<group>"; };
-		7901A0C21505F4E1003DA0DC /* file_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_16@2x.png"; sourceTree = "<group>"; };
-		7901A0C31505F4E1003DA0DC /* file_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_32.png; sourceTree = "<group>"; };
-		7901A0C41505F4E1003DA0DC /* file_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_32@2x.png"; sourceTree = "<group>"; };
-		7901A0C61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
-		7901A0C71505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
-		7901A0C81505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAlbumPhotoSubmitterSettingViewController.h; sourceTree = "<group>"; };
-		7901A0C91505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAlbumPhotoSubmitterSettingViewController.m; sourceTree = "<group>"; };
-		7901A0CA1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterServiceSettingTableViewController.h; sourceTree = "<group>"; };
-		7901A0CB1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterServiceSettingTableViewController.m; sourceTree = "<group>"; };
-		7901A0CC1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
-		7901A0CD1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
-		7901A0CE1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettingTableViewProtocol.h; sourceTree = "<group>"; };
-		7901A0CF1505F4E1003DA0DC /* PhotoSubmitterSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSwitch.h; sourceTree = "<group>"; };
-		7901A0D01505F4E1003DA0DC /* PhotoSubmitterSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSwitch.m; sourceTree = "<group>"; };
-		7901A0D11505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
-		7901A0D21505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
-		7901A0D31505F4E1003DA0DC /* strings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = strings.sh; sourceTree = "<group>"; };
-		7901A0EF1505F50E003DA0DC /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
-		7901A0F01505F50E003DA0DC /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
-		7901A0F31505F531003DA0DC /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
-		7901A0F41505F531003DA0DC /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
-		7901A0F71505F587003DA0DC /* NSData+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Digest.h"; sourceTree = "<group>"; };
-		7901A0F81505F587003DA0DC /* NSData+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Digest.m"; sourceTree = "<group>"; };
-		7901A0F91505F587003DA0DC /* UIImage+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Digest.h"; sourceTree = "<group>"; };
-		7901A0FA1505F587003DA0DC /* UIImage+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Digest.m"; sourceTree = "<group>"; };
-		7901A0FD1505F5B1003DA0DC /* UIImage+EXIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXIF.h"; sourceTree = "<group>"; };
-		7901A0FE1505F5B1003DA0DC /* UIImage+EXIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXIF.m"; sourceTree = "<group>"; };
-		7901A1011505F5D6003DA0DC /* FBNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNetworkReachability.h; sourceTree = "<group>"; };
-		7901A1021505F5D6003DA0DC /* FBNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNetworkReachability.m; sourceTree = "<group>"; };
-		7901A1041505F5D6003DA0DC /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
-		7901A1051505F5D6003DA0DC /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
-		7901A1061505F5D6003DA0DC /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
-		7901A1071505F5D6003DA0DC /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
-		7901A10C1505F5F4003DA0DC /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
-		7901A10D1505F5F4003DA0DC /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
-		7901A10E1505F5F4003DA0DC /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		7901A10F1505F5F4003DA0DC /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
-		7901A1101505F5F4003DA0DC /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
-		7901A1111505F5F4003DA0DC /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
-		7901A1151505F624003DA0DC /* UIImage+AutoRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoRotation.h"; sourceTree = "<group>"; };
-		7901A1161505F624003DA0DC /* UIImage+AutoRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoRotation.m"; sourceTree = "<group>"; };
-		7901A1181505F644003DA0DC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		7901A1191505F644003DA0DC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		7901A11A1505F644003DA0DC /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
-		7901A11B1505F644003DA0DC /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
-		7901A11E1505F6AE003DA0DC /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
-		7901A11F1505F6AE003DA0DC /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
 		7901A1211505F908003DA0DC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		7901A1231505F914003DA0DC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		7901A1251505F922003DA0DC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -177,6 +98,81 @@
 		7901A1291505F941003DA0DC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		7901A12B1505F957003DA0DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7901A12D1505F980003DA0DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7901A1331505FD7A003DA0DC /* FBNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNetworkReachability.h; sourceTree = "<group>"; };
+		7901A1341505FD7A003DA0DC /* FBNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNetworkReachability.m; sourceTree = "<group>"; };
+		7901A1361505FD7A003DA0DC /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		7901A1371505FD7A003DA0DC /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		7901A1391505FD7A003DA0DC /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		7901A13A1505FD7A003DA0DC /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		7901A13B1505FD7A003DA0DC /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		7901A13C1505FD7A003DA0DC /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		7901A13E1505FD7A003DA0DC /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		7901A13F1505FD7A003DA0DC /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		7901A1411505FD7A003DA0DC /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		7901A1421505FD7A003DA0DC /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		7901A1431505FD7A003DA0DC /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7901A1441505FD7A003DA0DC /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7901A1451505FD7A003DA0DC /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		7901A1461505FD7A003DA0DC /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		7901A1471505FD7A003DA0DC /* PhotoSubmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitter.h; sourceTree = "<group>"; };
+		7901A1481505FD7A003DA0DC /* PhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitter.m; sourceTree = "<group>"; };
+		7901A1491505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAccountTableViewController.h; sourceTree = "<group>"; };
+		7901A14A1505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAccountTableViewController.m; sourceTree = "<group>"; };
+		7901A14B1505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAlbumEntity.h; sourceTree = "<group>"; };
+		7901A14C1505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAlbumEntity.m; sourceTree = "<group>"; };
+		7901A14D1505FD7A003DA0DC /* PhotoSubmitterAPIKey-template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoSubmitterAPIKey-template.h"; sourceTree = "<group>"; };
+		7901A14E1505FD7A003DA0DC /* PhotoSubmitterAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAPIKey.h; sourceTree = "<group>"; };
+		7901A14F1505FD7A003DA0DC /* PhotoSubmitterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterFactory.h; sourceTree = "<group>"; };
+		7901A1501505FD7A003DA0DC /* PhotoSubmitterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterFactory.m; sourceTree = "<group>"; };
+		7901A1511505FD7A003DA0DC /* PhotoSubmitterImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterImageEntity.h; sourceTree = "<group>"; };
+		7901A1521505FD7A003DA0DC /* PhotoSubmitterImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterImageEntity.m; sourceTree = "<group>"; };
+		7901A1531505FD7A003DA0DC /* PhotoSubmitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterManager.h; sourceTree = "<group>"; };
+		7901A1541505FD7A003DA0DC /* PhotoSubmitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterManager.m; sourceTree = "<group>"; };
+		7901A1551505FD7A003DA0DC /* PhotoSubmitterOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterOperation.h; sourceTree = "<group>"; };
+		7901A1561505FD7A003DA0DC /* PhotoSubmitterOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterOperation.m; sourceTree = "<group>"; };
+		7901A1571505FD7A003DA0DC /* PhotoSubmitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterProtocol.h; sourceTree = "<group>"; };
+		7901A1581505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSequencialOperationQueue.h; sourceTree = "<group>"; };
+		7901A1591505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSequencialOperationQueue.m; sourceTree = "<group>"; };
+		7901A15A1505FD7A003DA0DC /* PhotoSubmitterSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettings.h; sourceTree = "<group>"; };
+		7901A15B1505FD7A003DA0DC /* PhotoSubmitterSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSettings.m; sourceTree = "<group>"; };
+		7901A15C1505FD7A003DA0DC /* PSLang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLang.h; sourceTree = "<group>"; };
+		7901A15D1505FD7A003DA0DC /* PSLang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLang.m; sourceTree = "<group>"; };
+		7901A1621505FD7A003DA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PhotoSubmitter.strings; sourceTree = "<group>"; };
+		7901A1631505FD7A003DA0DC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PhotoSubmitter.strings; sourceTree = "<group>"; };
+		7901A1641505FD7A003DA0DC /* strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strings.txt; sourceTree = "<group>"; };
+		7901A1671505FD7A003DA0DC /* FilePhotoSubmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePhotoSubmitter.h; sourceTree = "<group>"; };
+		7901A1681505FD7A003DA0DC /* FilePhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePhotoSubmitter.m; sourceTree = "<group>"; };
+		7901A16B1505FD7A003DA0DC /* file_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_16.png; sourceTree = "<group>"; };
+		7901A16C1505FD7A003DA0DC /* file_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_16@2x.png"; sourceTree = "<group>"; };
+		7901A16D1505FD7A003DA0DC /* file_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_32.png; sourceTree = "<group>"; };
+		7901A16E1505FD7A003DA0DC /* file_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_32@2x.png"; sourceTree = "<group>"; };
+		7901A1701505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A1711505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A1721505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAlbumPhotoSubmitterSettingViewController.h; sourceTree = "<group>"; };
+		7901A1731505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAlbumPhotoSubmitterSettingViewController.m; sourceTree = "<group>"; };
+		7901A1741505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterServiceSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A1751505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterServiceSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A1761505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A1771505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A1781505FD7A003DA0DC /* PhotoSubmitterSettingTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettingTableViewProtocol.h; sourceTree = "<group>"; };
+		7901A1791505FD7A003DA0DC /* PhotoSubmitterSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSwitch.h; sourceTree = "<group>"; };
+		7901A17A1505FD7A003DA0DC /* PhotoSubmitterSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSwitch.m; sourceTree = "<group>"; };
+		7901A17B1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A17C1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A17F1505FD7A003DA0DC /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		7901A1801505FD7A003DA0DC /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		7901A1811505FD7A003DA0DC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		7901A1821505FD7A003DA0DC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		7901A1831505FD7A003DA0DC /* NSData+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Digest.h"; sourceTree = "<group>"; };
+		7901A1841505FD7A003DA0DC /* NSData+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Digest.m"; sourceTree = "<group>"; };
+		7901A1851505FD7A003DA0DC /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		7901A1861505FD7A003DA0DC /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		7901A1871505FD7A003DA0DC /* UIImage+AutoRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoRotation.h"; sourceTree = "<group>"; };
+		7901A1881505FD7A003DA0DC /* UIImage+AutoRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoRotation.m"; sourceTree = "<group>"; };
+		7901A1891505FD7A003DA0DC /* UIImage+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Digest.h"; sourceTree = "<group>"; };
+		7901A18A1505FD7A003DA0DC /* UIImage+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Digest.m"; sourceTree = "<group>"; };
+		7901A18B1505FD7A003DA0DC /* UIImage+EXIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXIF.h"; sourceTree = "<group>"; };
+		7901A18C1505FD7A003DA0DC /* UIImage+EXIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,8 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				7901A06E1505F4B7003DA0DC /* PhotoSubmitterExample */,
-				7901A09B1505F4E1003DA0DC /* PhotoSubmitter */,
 				7901A0861505F4B8003DA0DC /* PhotoSubmitterExampleTests */,
+				7901A12F1505FD7A003DA0DC /* PhotoSubmitter */,
 				7901A0671505F4B7003DA0DC /* Frameworks */,
 				7901A1251505F922003DA0DC /* libicucore.dylib */,
 				7901A0651505F4B7003DA0DC /* Products */,
@@ -287,200 +283,197 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7901A09B1505F4E1003DA0DC /* PhotoSubmitter */ = {
+		7901A12F1505FD7A003DA0DC /* PhotoSubmitter */ = {
 			isa = PBXGroup;
 			children = (
-				7901A0F61505F587003DA0DC /* UtilityCategories */,
-				7901A09C1505F4E1003DA0DC /* Libraries */,
-				7901A09D1505F4E1003DA0DC /* PhotoSubmitter.h */,
-				7901A09E1505F4E1003DA0DC /* PhotoSubmitter.m */,
-				7901A09F1505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.h */,
-				7901A0A01505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m */,
-				7901A0A11505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.h */,
-				7901A0A21505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m */,
-				7901A0A31505F4E1003DA0DC /* PhotoSubmitterAPIKey-template.h */,
-				7901A0A41505F4E1003DA0DC /* PhotoSubmitterAPIKey.h */,
-				7901A0A51505F4E1003DA0DC /* PhotoSubmitterFactory.h */,
-				7901A0A61505F4E1003DA0DC /* PhotoSubmitterFactory.m */,
-				7901A0A71505F4E1003DA0DC /* PhotoSubmitterImageEntity.h */,
-				7901A0A81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m */,
-				7901A0A91505F4E1003DA0DC /* PhotoSubmitterManager.h */,
-				7901A0AA1505F4E1003DA0DC /* PhotoSubmitterManager.m */,
-				7901A0AB1505F4E1003DA0DC /* PhotoSubmitterOperation.h */,
-				7901A0AC1505F4E1003DA0DC /* PhotoSubmitterOperation.m */,
-				7901A0AD1505F4E1003DA0DC /* PhotoSubmitterProtocol.h */,
-				7901A0AE1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.h */,
-				7901A0AF1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */,
-				7901A0B01505F4E1003DA0DC /* PhotoSubmitterSettings.h */,
-				7901A0B11505F4E1003DA0DC /* PhotoSubmitterSettings.m */,
-				7901A0B21505F4E1003DA0DC /* PSLang.h */,
-				7901A0B31505F4E1003DA0DC /* PSLang.m */,
-				7901A0B41505F4E1003DA0DC /* README.md */,
-				7901A0B51505F4E1003DA0DC /* Resources */,
-				7901A0BB1505F4E1003DA0DC /* Services */,
-				7901A0C51505F4E1003DA0DC /* Settings */,
-				7901A0D31505F4E1003DA0DC /* strings.sh */,
+				7901A15F1505FD7A003DA0DC /* Resources */,
+				7901A1651505FD7A003DA0DC /* Services */,
+				7901A16F1505FD7A003DA0DC /* Settings */,
+				7901A17E1505FD7A003DA0DC /* UtilityCategories */,
+				7901A1311505FD7A003DA0DC /* Libraries */,
+				7901A1471505FD7A003DA0DC /* PhotoSubmitter.h */,
+				7901A1481505FD7A003DA0DC /* PhotoSubmitter.m */,
+				7901A1491505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.h */,
+				7901A14A1505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.m */,
+				7901A14B1505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.h */,
+				7901A14C1505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.m */,
+				7901A14D1505FD7A003DA0DC /* PhotoSubmitterAPIKey-template.h */,
+				7901A14E1505FD7A003DA0DC /* PhotoSubmitterAPIKey.h */,
+				7901A14F1505FD7A003DA0DC /* PhotoSubmitterFactory.h */,
+				7901A1501505FD7A003DA0DC /* PhotoSubmitterFactory.m */,
+				7901A1511505FD7A003DA0DC /* PhotoSubmitterImageEntity.h */,
+				7901A1521505FD7A003DA0DC /* PhotoSubmitterImageEntity.m */,
+				7901A1531505FD7A003DA0DC /* PhotoSubmitterManager.h */,
+				7901A1541505FD7A003DA0DC /* PhotoSubmitterManager.m */,
+				7901A1551505FD7A003DA0DC /* PhotoSubmitterOperation.h */,
+				7901A1561505FD7A003DA0DC /* PhotoSubmitterOperation.m */,
+				7901A1571505FD7A003DA0DC /* PhotoSubmitterProtocol.h */,
+				7901A1581505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.h */,
+				7901A1591505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */,
+				7901A15A1505FD7A003DA0DC /* PhotoSubmitterSettings.h */,
+				7901A15B1505FD7A003DA0DC /* PhotoSubmitterSettings.m */,
+				7901A15C1505FD7A003DA0DC /* PSLang.h */,
+				7901A15D1505FD7A003DA0DC /* PSLang.m */,
 			);
-			name = PhotoSubmitter;
-			path = ../PhotoSubmitter;
+			path = PhotoSubmitter;
 			sourceTree = "<group>";
 		};
-		7901A09C1505F4E1003DA0DC /* Libraries */ = {
+		7901A1311505FD7A003DA0DC /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				7901A1001505F5D6003DA0DC /* FBNetworkReachability */,
-				7901A1031505F5D6003DA0DC /* PDKeychainBindingsController */,
-				7901A0F21505F531003DA0DC /* ios-queue-object */,
-				7901A10B1505F5F4003DA0DC /* UIImage-categories */,
-				7901A0EE1505F50E003DA0DC /* RegexKitLite */,
+				7901A1321505FD7A003DA0DC /* FBNetworkReachability */,
+				7901A1351505FD7A003DA0DC /* ios-queue-object */,
+				7901A1381505FD7A003DA0DC /* PDKeychainBindingsController */,
+				7901A13D1505FD7A003DA0DC /* RegexKitLite */,
+				7901A1401505FD7A003DA0DC /* UIImage-categories */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
 		};
-		7901A0B51505F4E1003DA0DC /* Resources */ = {
+		7901A1321505FD7A003DA0DC /* FBNetworkReachability */ = {
 			isa = PBXGroup;
 			children = (
-				7901A0B61505F4E1003DA0DC /* Localizations */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7901A0B61505F4E1003DA0DC /* Localizations */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0B71505F4E1003DA0DC /* PhotoSubmitter.strings */,
-				7901A0BA1505F4E1003DA0DC /* strings.txt */,
-			);
-			path = Localizations;
-			sourceTree = "<group>";
-		};
-		7901A0BB1505F4E1003DA0DC /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0BC1505F4E1003DA0DC /* File */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		7901A0BC1505F4E1003DA0DC /* File */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0BD1505F4E1003DA0DC /* FilePhotoSubmitter.h */,
-				7901A0BE1505F4E1003DA0DC /* FilePhotoSubmitter.m */,
-				7901A0BF1505F4E1003DA0DC /* Resources */,
-			);
-			path = File;
-			sourceTree = "<group>";
-		};
-		7901A0BF1505F4E1003DA0DC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0C01505F4E1003DA0DC /* Images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7901A0C01505F4E1003DA0DC /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0C11505F4E1003DA0DC /* file_16.png */,
-				7901A0C21505F4E1003DA0DC /* file_16@2x.png */,
-				7901A0C31505F4E1003DA0DC /* file_32.png */,
-				7901A0C41505F4E1003DA0DC /* file_32@2x.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
-		7901A0C51505F4E1003DA0DC /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0C61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.h */,
-				7901A0C71505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */,
-				7901A0C81505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.h */,
-				7901A0C91505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */,
-				7901A0CA1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.h */,
-				7901A0CB1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */,
-				7901A0CC1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.h */,
-				7901A0CD1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m */,
-				7901A0CE1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewProtocol.h */,
-				7901A0CF1505F4E1003DA0DC /* PhotoSubmitterSwitch.h */,
-				7901A0D01505F4E1003DA0DC /* PhotoSubmitterSwitch.m */,
-				7901A0D11505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.h */,
-				7901A0D21505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		7901A0EE1505F50E003DA0DC /* RegexKitLite */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0EF1505F50E003DA0DC /* RegexKitLite.h */,
-				7901A0F01505F50E003DA0DC /* RegexKitLite.m */,
-			);
-			path = RegexKitLite;
-			sourceTree = "<group>";
-		};
-		7901A0F21505F531003DA0DC /* ios-queue-object */ = {
-			isa = PBXGroup;
-			children = (
-				7901A0F31505F531003DA0DC /* NSMutableArray+QueueAdditions.h */,
-				7901A0F41505F531003DA0DC /* NSMutableArray+QueueAdditions.m */,
-			);
-			path = "ios-queue-object";
-			sourceTree = "<group>";
-		};
-		7901A0F61505F587003DA0DC /* UtilityCategories */ = {
-			isa = PBXGroup;
-			children = (
-				7901A11E1505F6AE003DA0DC /* base64.c */,
-				7901A11F1505F6AE003DA0DC /* base64.h */,
-				7901A0F71505F587003DA0DC /* NSData+Digest.h */,
-				7901A0F81505F587003DA0DC /* NSData+Digest.m */,
-				7901A0F91505F587003DA0DC /* UIImage+Digest.h */,
-				7901A0FA1505F587003DA0DC /* UIImage+Digest.m */,
-				7901A0FD1505F5B1003DA0DC /* UIImage+EXIF.h */,
-				7901A0FE1505F5B1003DA0DC /* UIImage+EXIF.m */,
-				7901A1151505F624003DA0DC /* UIImage+AutoRotation.h */,
-				7901A1161505F624003DA0DC /* UIImage+AutoRotation.m */,
-				7901A1181505F644003DA0DC /* NSData+Base64.h */,
-				7901A1191505F644003DA0DC /* NSData+Base64.m */,
-				7901A11A1505F644003DA0DC /* NSString+Base64.h */,
-				7901A11B1505F644003DA0DC /* NSString+Base64.m */,
-			);
-			path = UtilityCategories;
-			sourceTree = "<group>";
-		};
-		7901A1001505F5D6003DA0DC /* FBNetworkReachability */ = {
-			isa = PBXGroup;
-			children = (
-				7901A1011505F5D6003DA0DC /* FBNetworkReachability.h */,
-				7901A1021505F5D6003DA0DC /* FBNetworkReachability.m */,
+				7901A1331505FD7A003DA0DC /* FBNetworkReachability.h */,
+				7901A1341505FD7A003DA0DC /* FBNetworkReachability.m */,
 			);
 			path = FBNetworkReachability;
 			sourceTree = "<group>";
 		};
-		7901A1031505F5D6003DA0DC /* PDKeychainBindingsController */ = {
+		7901A1351505FD7A003DA0DC /* ios-queue-object */ = {
 			isa = PBXGroup;
 			children = (
-				7901A1041505F5D6003DA0DC /* PDKeychainBindings.h */,
-				7901A1051505F5D6003DA0DC /* PDKeychainBindings.m */,
-				7901A1061505F5D6003DA0DC /* PDKeychainBindingsController.h */,
-				7901A1071505F5D6003DA0DC /* PDKeychainBindingsController.m */,
+				7901A1361505FD7A003DA0DC /* NSMutableArray+QueueAdditions.h */,
+				7901A1371505FD7A003DA0DC /* NSMutableArray+QueueAdditions.m */,
+			);
+			path = "ios-queue-object";
+			sourceTree = "<group>";
+		};
+		7901A1381505FD7A003DA0DC /* PDKeychainBindingsController */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1391505FD7A003DA0DC /* PDKeychainBindings.h */,
+				7901A13A1505FD7A003DA0DC /* PDKeychainBindings.m */,
+				7901A13B1505FD7A003DA0DC /* PDKeychainBindingsController.h */,
+				7901A13C1505FD7A003DA0DC /* PDKeychainBindingsController.m */,
 			);
 			path = PDKeychainBindingsController;
 			sourceTree = "<group>";
 		};
-		7901A10B1505F5F4003DA0DC /* UIImage-categories */ = {
+		7901A13D1505FD7A003DA0DC /* RegexKitLite */ = {
 			isa = PBXGroup;
 			children = (
-				7901A10C1505F5F4003DA0DC /* UIImage+Alpha.h */,
-				7901A10D1505F5F4003DA0DC /* UIImage+Alpha.m */,
-				7901A10E1505F5F4003DA0DC /* UIImage+Resize.h */,
-				7901A10F1505F5F4003DA0DC /* UIImage+Resize.m */,
-				7901A1101505F5F4003DA0DC /* UIImage+RoundedCorner.h */,
-				7901A1111505F5F4003DA0DC /* UIImage+RoundedCorner.m */,
+				7901A13E1505FD7A003DA0DC /* RegexKitLite.h */,
+				7901A13F1505FD7A003DA0DC /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		7901A1401505FD7A003DA0DC /* UIImage-categories */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1411505FD7A003DA0DC /* UIImage+Alpha.h */,
+				7901A1421505FD7A003DA0DC /* UIImage+Alpha.m */,
+				7901A1431505FD7A003DA0DC /* UIImage+Resize.h */,
+				7901A1441505FD7A003DA0DC /* UIImage+Resize.m */,
+				7901A1451505FD7A003DA0DC /* UIImage+RoundedCorner.h */,
+				7901A1461505FD7A003DA0DC /* UIImage+RoundedCorner.m */,
 			);
 			path = "UIImage-categories";
+			sourceTree = "<group>";
+		};
+		7901A15F1505FD7A003DA0DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1601505FD7A003DA0DC /* Localizations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7901A1601505FD7A003DA0DC /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1611505FD7A003DA0DC /* PhotoSubmitter.strings */,
+				7901A1641505FD7A003DA0DC /* strings.txt */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		7901A1651505FD7A003DA0DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1661505FD7A003DA0DC /* File */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7901A1661505FD7A003DA0DC /* File */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1671505FD7A003DA0DC /* FilePhotoSubmitter.h */,
+				7901A1681505FD7A003DA0DC /* FilePhotoSubmitter.m */,
+				7901A1691505FD7A003DA0DC /* Resources */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		7901A1691505FD7A003DA0DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7901A16A1505FD7A003DA0DC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7901A16A1505FD7A003DA0DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7901A16B1505FD7A003DA0DC /* file_16.png */,
+				7901A16C1505FD7A003DA0DC /* file_16@2x.png */,
+				7901A16D1505FD7A003DA0DC /* file_32.png */,
+				7901A16E1505FD7A003DA0DC /* file_32@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7901A16F1505FD7A003DA0DC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1701505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.h */,
+				7901A1711505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */,
+				7901A1721505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.h */,
+				7901A1731505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */,
+				7901A1741505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.h */,
+				7901A1751505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */,
+				7901A1761505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.h */,
+				7901A1771505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.m */,
+				7901A1781505FD7A003DA0DC /* PhotoSubmitterSettingTableViewProtocol.h */,
+				7901A1791505FD7A003DA0DC /* PhotoSubmitterSwitch.h */,
+				7901A17A1505FD7A003DA0DC /* PhotoSubmitterSwitch.m */,
+				7901A17B1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.h */,
+				7901A17C1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7901A17E1505FD7A003DA0DC /* UtilityCategories */ = {
+			isa = PBXGroup;
+			children = (
+				7901A17F1505FD7A003DA0DC /* base64.c */,
+				7901A1801505FD7A003DA0DC /* base64.h */,
+				7901A1811505FD7A003DA0DC /* NSData+Base64.h */,
+				7901A1821505FD7A003DA0DC /* NSData+Base64.m */,
+				7901A1831505FD7A003DA0DC /* NSData+Digest.h */,
+				7901A1841505FD7A003DA0DC /* NSData+Digest.m */,
+				7901A1851505FD7A003DA0DC /* NSString+Base64.h */,
+				7901A1861505FD7A003DA0DC /* NSString+Base64.m */,
+				7901A1871505FD7A003DA0DC /* UIImage+AutoRotation.h */,
+				7901A1881505FD7A003DA0DC /* UIImage+AutoRotation.m */,
+				7901A1891505FD7A003DA0DC /* UIImage+Digest.h */,
+				7901A18A1505FD7A003DA0DC /* UIImage+Digest.m */,
+				7901A18B1505FD7A003DA0DC /* UIImage+EXIF.h */,
+				7901A18C1505FD7A003DA0DC /* UIImage+EXIF.m */,
+			);
+			path = UtilityCategories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,14 +548,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7901A0731505F4B7003DA0DC /* InfoPlist.strings in Resources */,
-				7901A0DE1505F4E1003DA0DC /* README.md in Resources */,
-				7901A0DF1505F4E1003DA0DC /* PhotoSubmitter.strings in Resources */,
-				7901A0E01505F4E1003DA0DC /* strings.txt in Resources */,
-				7901A0E21505F4E1003DA0DC /* file_16.png in Resources */,
-				7901A0E31505F4E1003DA0DC /* file_16@2x.png in Resources */,
-				7901A0E41505F4E1003DA0DC /* file_32.png in Resources */,
-				7901A0E51505F4E1003DA0DC /* file_32@2x.png in Resources */,
-				7901A0EC1505F4E1003DA0DC /* strings.sh in Resources */,
+				7901A1A11505FD7A003DA0DC /* PhotoSubmitter.strings in Resources */,
+				7901A1A21505FD7A003DA0DC /* strings.txt in Resources */,
+				7901A1A41505FD7A003DA0DC /* file_16.png in Resources */,
+				7901A1A51505FD7A003DA0DC /* file_16@2x.png in Resources */,
+				7901A1A61505FD7A003DA0DC /* file_32.png in Resources */,
+				7901A1A71505FD7A003DA0DC /* file_32@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,38 +590,38 @@
 			files = (
 				7901A0751505F4B7003DA0DC /* main.m in Sources */,
 				7901A0791505F4B7003DA0DC /* AppDelegate.m in Sources */,
-				7901A0D41505F4E1003DA0DC /* PhotoSubmitter.m in Sources */,
-				7901A0D51505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m in Sources */,
-				7901A0D61505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m in Sources */,
-				7901A0D71505F4E1003DA0DC /* PhotoSubmitterFactory.m in Sources */,
-				7901A0D81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m in Sources */,
-				7901A0D91505F4E1003DA0DC /* PhotoSubmitterManager.m in Sources */,
-				7901A0DA1505F4E1003DA0DC /* PhotoSubmitterOperation.m in Sources */,
-				7901A0DB1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m in Sources */,
-				7901A0DC1505F4E1003DA0DC /* PhotoSubmitterSettings.m in Sources */,
-				7901A0DD1505F4E1003DA0DC /* PSLang.m in Sources */,
-				7901A0E11505F4E1003DA0DC /* FilePhotoSubmitter.m in Sources */,
-				7901A0E61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m in Sources */,
-				7901A0E71505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m in Sources */,
-				7901A0E81505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m in Sources */,
-				7901A0E91505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m in Sources */,
-				7901A0EA1505F4E1003DA0DC /* PhotoSubmitterSwitch.m in Sources */,
-				7901A0EB1505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m in Sources */,
-				7901A0F11505F50E003DA0DC /* RegexKitLite.m in Sources */,
-				7901A0F51505F531003DA0DC /* NSMutableArray+QueueAdditions.m in Sources */,
-				7901A0FB1505F587003DA0DC /* NSData+Digest.m in Sources */,
-				7901A0FC1505F587003DA0DC /* UIImage+Digest.m in Sources */,
-				7901A0FF1505F5B1003DA0DC /* UIImage+EXIF.m in Sources */,
-				7901A1081505F5D6003DA0DC /* FBNetworkReachability.m in Sources */,
-				7901A1091505F5D6003DA0DC /* PDKeychainBindings.m in Sources */,
-				7901A10A1505F5D6003DA0DC /* PDKeychainBindingsController.m in Sources */,
-				7901A1121505F5F4003DA0DC /* UIImage+Alpha.m in Sources */,
-				7901A1131505F5F4003DA0DC /* UIImage+Resize.m in Sources */,
-				7901A1141505F5F4003DA0DC /* UIImage+RoundedCorner.m in Sources */,
-				7901A1171505F624003DA0DC /* UIImage+AutoRotation.m in Sources */,
-				7901A11C1505F644003DA0DC /* NSData+Base64.m in Sources */,
-				7901A11D1505F644003DA0DC /* NSString+Base64.m in Sources */,
-				7901A1201505F6AE003DA0DC /* base64.c in Sources */,
+				7901A18E1505FD7A003DA0DC /* FBNetworkReachability.m in Sources */,
+				7901A18F1505FD7A003DA0DC /* NSMutableArray+QueueAdditions.m in Sources */,
+				7901A1901505FD7A003DA0DC /* PDKeychainBindings.m in Sources */,
+				7901A1911505FD7A003DA0DC /* PDKeychainBindingsController.m in Sources */,
+				7901A1921505FD7A003DA0DC /* RegexKitLite.m in Sources */,
+				7901A1931505FD7A003DA0DC /* UIImage+Alpha.m in Sources */,
+				7901A1941505FD7A003DA0DC /* UIImage+Resize.m in Sources */,
+				7901A1951505FD7A003DA0DC /* UIImage+RoundedCorner.m in Sources */,
+				7901A1961505FD7A003DA0DC /* PhotoSubmitter.m in Sources */,
+				7901A1971505FD7A003DA0DC /* PhotoSubmitterAccountTableViewController.m in Sources */,
+				7901A1981505FD7A003DA0DC /* PhotoSubmitterAlbumEntity.m in Sources */,
+				7901A1991505FD7A003DA0DC /* PhotoSubmitterFactory.m in Sources */,
+				7901A19A1505FD7A003DA0DC /* PhotoSubmitterImageEntity.m in Sources */,
+				7901A19B1505FD7A003DA0DC /* PhotoSubmitterManager.m in Sources */,
+				7901A19C1505FD7A003DA0DC /* PhotoSubmitterOperation.m in Sources */,
+				7901A19D1505FD7A003DA0DC /* PhotoSubmitterSequencialOperationQueue.m in Sources */,
+				7901A19E1505FD7A003DA0DC /* PhotoSubmitterSettings.m in Sources */,
+				7901A19F1505FD7A003DA0DC /* PSLang.m in Sources */,
+				7901A1A31505FD7A003DA0DC /* FilePhotoSubmitter.m in Sources */,
+				7901A1A81505FD7A003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m in Sources */,
+				7901A1A91505FD7A003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m in Sources */,
+				7901A1AA1505FD7A003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m in Sources */,
+				7901A1AB1505FD7A003DA0DC /* PhotoSubmitterSettingTableViewController.m in Sources */,
+				7901A1AC1505FD7A003DA0DC /* PhotoSubmitterSwitch.m in Sources */,
+				7901A1AD1505FD7A003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m in Sources */,
+				7901A1AF1505FD7A003DA0DC /* base64.c in Sources */,
+				7901A1B01505FD7A003DA0DC /* NSData+Base64.m in Sources */,
+				7901A1B11505FD7A003DA0DC /* NSData+Digest.m in Sources */,
+				7901A1B21505FD7A003DA0DC /* NSString+Base64.m in Sources */,
+				7901A1B31505FD7A003DA0DC /* UIImage+AutoRotation.m in Sources */,
+				7901A1B41505FD7A003DA0DC /* UIImage+Digest.m in Sources */,
+				7901A1B51505FD7A003DA0DC /* UIImage+EXIF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,11 +660,11 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7901A0B71505F4E1003DA0DC /* PhotoSubmitter.strings */ = {
+		7901A1611505FD7A003DA0DC /* PhotoSubmitter.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7901A0B81505F4E1003DA0DC /* en */,
-				7901A0B91505F4E1003DA0DC /* ja */,
+				7901A1621505FD7A003DA0DC /* en */,
+				7901A1631505FD7A003DA0DC /* ja */,
 			);
 			name = PhotoSubmitter.strings;
 			sourceTree = "<group>";
