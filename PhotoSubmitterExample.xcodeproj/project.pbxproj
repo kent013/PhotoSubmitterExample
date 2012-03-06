@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7901A0691505F4B7003DA0DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A0681505F4B7003DA0DC /* UIKit.framework */; };
+		7901A06B1505F4B7003DA0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A06A1505F4B7003DA0DC /* Foundation.framework */; };
+		7901A06D1505F4B7003DA0DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A06C1505F4B7003DA0DC /* CoreGraphics.framework */; };
+		7901A0731505F4B7003DA0DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0711505F4B7003DA0DC /* InfoPlist.strings */; };
+		7901A0751505F4B7003DA0DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0741505F4B7003DA0DC /* main.m */; };
+		7901A0791505F4B7003DA0DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0781505F4B7003DA0DC /* AppDelegate.m */; };
+		7901A0811505F4B8003DA0DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A0801505F4B8003DA0DC /* SenTestingKit.framework */; };
+		7901A0821505F4B8003DA0DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A0681505F4B7003DA0DC /* UIKit.framework */; };
+		7901A0831505F4B8003DA0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A06A1505F4B7003DA0DC /* Foundation.framework */; };
+		7901A08B1505F4B8003DA0DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0891505F4B8003DA0DC /* InfoPlist.strings */; };
+		7901A08E1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A08D1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m */; };
+		7901A0D41505F4E1003DA0DC /* PhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A09E1505F4E1003DA0DC /* PhotoSubmitter.m */; };
+		7901A0D51505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A01505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m */; };
+		7901A0D61505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A21505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m */; };
+		7901A0D71505F4E1003DA0DC /* PhotoSubmitterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A61505F4E1003DA0DC /* PhotoSubmitterFactory.m */; };
+		7901A0D81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0A81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m */; };
+		7901A0D91505F4E1003DA0DC /* PhotoSubmitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0AA1505F4E1003DA0DC /* PhotoSubmitterManager.m */; };
+		7901A0DA1505F4E1003DA0DC /* PhotoSubmitterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0AC1505F4E1003DA0DC /* PhotoSubmitterOperation.m */; };
+		7901A0DB1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0AF1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */; };
+		7901A0DC1505F4E1003DA0DC /* PhotoSubmitterSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0B11505F4E1003DA0DC /* PhotoSubmitterSettings.m */; };
+		7901A0DD1505F4E1003DA0DC /* PSLang.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0B31505F4E1003DA0DC /* PSLang.m */; };
+		7901A0DE1505F4E1003DA0DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0B41505F4E1003DA0DC /* README.md */; };
+		7901A0DF1505F4E1003DA0DC /* PhotoSubmitter.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0B71505F4E1003DA0DC /* PhotoSubmitter.strings */; };
+		7901A0E01505F4E1003DA0DC /* strings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0BA1505F4E1003DA0DC /* strings.txt */; };
+		7901A0E11505F4E1003DA0DC /* FilePhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0BE1505F4E1003DA0DC /* FilePhotoSubmitter.m */; };
+		7901A0E21505F4E1003DA0DC /* file_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C11505F4E1003DA0DC /* file_16.png */; };
+		7901A0E31505F4E1003DA0DC /* file_16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C21505F4E1003DA0DC /* file_16@2x.png */; };
+		7901A0E41505F4E1003DA0DC /* file_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C31505F4E1003DA0DC /* file_32.png */; };
+		7901A0E51505F4E1003DA0DC /* file_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0C41505F4E1003DA0DC /* file_32@2x.png */; };
+		7901A0E61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0C71505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */; };
+		7901A0E71505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0C91505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */; };
+		7901A0E81505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0CB1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */; };
+		7901A0E91505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0CD1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m */; };
+		7901A0EA1505F4E1003DA0DC /* PhotoSubmitterSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0D01505F4E1003DA0DC /* PhotoSubmitterSwitch.m */; };
+		7901A0EB1505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0D21505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */; };
+		7901A0EC1505F4E1003DA0DC /* strings.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7901A0D31505F4E1003DA0DC /* strings.sh */; };
+		7901A0F11505F50E003DA0DC /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0F01505F50E003DA0DC /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A0F51505F531003DA0DC /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0F41505F531003DA0DC /* NSMutableArray+QueueAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A0FB1505F587003DA0DC /* NSData+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0F81505F587003DA0DC /* NSData+Digest.m */; };
+		7901A0FC1505F587003DA0DC /* UIImage+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0FA1505F587003DA0DC /* UIImage+Digest.m */; };
+		7901A0FF1505F5B1003DA0DC /* UIImage+EXIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A0FE1505F5B1003DA0DC /* UIImage+EXIF.m */; };
+		7901A1081505F5D6003DA0DC /* FBNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1021505F5D6003DA0DC /* FBNetworkReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A1091505F5D6003DA0DC /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1051505F5D6003DA0DC /* PDKeychainBindings.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A10A1505F5D6003DA0DC /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1071505F5D6003DA0DC /* PDKeychainBindingsController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A1121505F5F4003DA0DC /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A10D1505F5F4003DA0DC /* UIImage+Alpha.m */; };
+		7901A1131505F5F4003DA0DC /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A10F1505F5F4003DA0DC /* UIImage+Resize.m */; };
+		7901A1141505F5F4003DA0DC /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1111505F5F4003DA0DC /* UIImage+RoundedCorner.m */; };
+		7901A1171505F624003DA0DC /* UIImage+AutoRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1161505F624003DA0DC /* UIImage+AutoRotation.m */; };
+		7901A11C1505F644003DA0DC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A1191505F644003DA0DC /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A11D1505F644003DA0DC /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901A11B1505F644003DA0DC /* NSString+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7901A1201505F6AE003DA0DC /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 7901A11E1505F6AE003DA0DC /* base64.c */; };
+		7901A1221505F908003DA0DC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1211505F908003DA0DC /* AssetsLibrary.framework */; };
+		7901A1241505F914003DA0DC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1231505F914003DA0DC /* ImageIO.framework */; };
+		7901A1261505F922003DA0DC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1251505F922003DA0DC /* libicucore.dylib */; };
+		7901A1281505F930003DA0DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A1271505F930003DA0DC /* CoreLocation.framework */; };
+		7901A12C1505F957003DA0DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A12B1505F957003DA0DC /* Security.framework */; };
+		7901A12E1505F980003DA0DC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901A12D1505F980003DA0DC /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7901A0841505F4B8003DA0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7901A05B1505F4B7003DA0DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7901A0631505F4B7003DA0DC;
+			remoteInfo = PhotoSubmitterExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7901A0641505F4B7003DA0DC /* PhotoSubmitterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSubmitterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7901A0681505F4B7003DA0DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7901A06A1505F4B7003DA0DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7901A06C1505F4B7003DA0DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7901A0701505F4B7003DA0DC /* PhotoSubmitterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoSubmitterExample-Info.plist"; sourceTree = "<group>"; };
+		7901A0721505F4B7003DA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7901A0741505F4B7003DA0DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7901A0761505F4B7003DA0DC /* PhotoSubmitterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoSubmitterExample-Prefix.pch"; sourceTree = "<group>"; };
+		7901A0771505F4B7003DA0DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7901A0781505F4B7003DA0DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7901A07F1505F4B7003DA0DC /* PhotoSubmitterExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSubmitterExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7901A0801505F4B8003DA0DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7901A0881505F4B8003DA0DC /* PhotoSubmitterExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoSubmitterExampleTests-Info.plist"; sourceTree = "<group>"; };
+		7901A08A1505F4B8003DA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7901A08C1505F4B8003DA0DC /* PhotoSubmitterExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterExampleTests.h; sourceTree = "<group>"; };
+		7901A08D1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterExampleTests.m; sourceTree = "<group>"; };
+		7901A09D1505F4E1003DA0DC /* PhotoSubmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitter.h; sourceTree = "<group>"; };
+		7901A09E1505F4E1003DA0DC /* PhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitter.m; sourceTree = "<group>"; };
+		7901A09F1505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAccountTableViewController.h; sourceTree = "<group>"; };
+		7901A0A01505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAccountTableViewController.m; sourceTree = "<group>"; };
+		7901A0A11505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAlbumEntity.h; sourceTree = "<group>"; };
+		7901A0A21505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAlbumEntity.m; sourceTree = "<group>"; };
+		7901A0A31505F4E1003DA0DC /* PhotoSubmitterAPIKey-template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoSubmitterAPIKey-template.h"; sourceTree = "<group>"; };
+		7901A0A41505F4E1003DA0DC /* PhotoSubmitterAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAPIKey.h; sourceTree = "<group>"; };
+		7901A0A51505F4E1003DA0DC /* PhotoSubmitterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterFactory.h; sourceTree = "<group>"; };
+		7901A0A61505F4E1003DA0DC /* PhotoSubmitterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterFactory.m; sourceTree = "<group>"; };
+		7901A0A71505F4E1003DA0DC /* PhotoSubmitterImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterImageEntity.h; sourceTree = "<group>"; };
+		7901A0A81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterImageEntity.m; sourceTree = "<group>"; };
+		7901A0A91505F4E1003DA0DC /* PhotoSubmitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterManager.h; sourceTree = "<group>"; };
+		7901A0AA1505F4E1003DA0DC /* PhotoSubmitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterManager.m; sourceTree = "<group>"; };
+		7901A0AB1505F4E1003DA0DC /* PhotoSubmitterOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterOperation.h; sourceTree = "<group>"; };
+		7901A0AC1505F4E1003DA0DC /* PhotoSubmitterOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterOperation.m; sourceTree = "<group>"; };
+		7901A0AD1505F4E1003DA0DC /* PhotoSubmitterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterProtocol.h; sourceTree = "<group>"; };
+		7901A0AE1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSequencialOperationQueue.h; sourceTree = "<group>"; };
+		7901A0AF1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSequencialOperationQueue.m; sourceTree = "<group>"; };
+		7901A0B01505F4E1003DA0DC /* PhotoSubmitterSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettings.h; sourceTree = "<group>"; };
+		7901A0B11505F4E1003DA0DC /* PhotoSubmitterSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSettings.m; sourceTree = "<group>"; };
+		7901A0B21505F4E1003DA0DC /* PSLang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLang.h; sourceTree = "<group>"; };
+		7901A0B31505F4E1003DA0DC /* PSLang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLang.m; sourceTree = "<group>"; };
+		7901A0B41505F4E1003DA0DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		7901A0B81505F4E1003DA0DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PhotoSubmitter.strings; sourceTree = "<group>"; };
+		7901A0B91505F4E1003DA0DC /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/PhotoSubmitter.strings; sourceTree = "<group>"; };
+		7901A0BA1505F4E1003DA0DC /* strings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = strings.txt; sourceTree = "<group>"; };
+		7901A0BD1505F4E1003DA0DC /* FilePhotoSubmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilePhotoSubmitter.h; sourceTree = "<group>"; };
+		7901A0BE1505F4E1003DA0DC /* FilePhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilePhotoSubmitter.m; sourceTree = "<group>"; };
+		7901A0C11505F4E1003DA0DC /* file_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_16.png; sourceTree = "<group>"; };
+		7901A0C21505F4E1003DA0DC /* file_16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_16@2x.png"; sourceTree = "<group>"; };
+		7901A0C31505F4E1003DA0DC /* file_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file_32.png; sourceTree = "<group>"; };
+		7901A0C41505F4E1003DA0DC /* file_32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_32@2x.png"; sourceTree = "<group>"; };
+		7901A0C61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A0C71505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A0C81505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAlbumPhotoSubmitterSettingViewController.h; sourceTree = "<group>"; };
+		7901A0C91505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAlbumPhotoSubmitterSettingViewController.m; sourceTree = "<group>"; };
+		7901A0CA1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterServiceSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A0CB1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterServiceSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A0CC1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A0CD1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A0CE1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSettingTableViewProtocol.h; sourceTree = "<group>"; };
+		7901A0CF1505F4E1003DA0DC /* PhotoSubmitterSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterSwitch.h; sourceTree = "<group>"; };
+		7901A0D01505F4E1003DA0DC /* PhotoSubmitterSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterSwitch.m; sourceTree = "<group>"; };
+		7901A0D11505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
+		7901A0D21505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901A0D31505F4E1003DA0DC /* strings.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = strings.sh; sourceTree = "<group>"; };
+		7901A0EF1505F50E003DA0DC /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		7901A0F01505F50E003DA0DC /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		7901A0F31505F531003DA0DC /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		7901A0F41505F531003DA0DC /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		7901A0F71505F587003DA0DC /* NSData+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Digest.h"; sourceTree = "<group>"; };
+		7901A0F81505F587003DA0DC /* NSData+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Digest.m"; sourceTree = "<group>"; };
+		7901A0F91505F587003DA0DC /* UIImage+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Digest.h"; sourceTree = "<group>"; };
+		7901A0FA1505F587003DA0DC /* UIImage+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Digest.m"; sourceTree = "<group>"; };
+		7901A0FD1505F5B1003DA0DC /* UIImage+EXIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+EXIF.h"; sourceTree = "<group>"; };
+		7901A0FE1505F5B1003DA0DC /* UIImage+EXIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+EXIF.m"; sourceTree = "<group>"; };
+		7901A1011505F5D6003DA0DC /* FBNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBNetworkReachability.h; sourceTree = "<group>"; };
+		7901A1021505F5D6003DA0DC /* FBNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBNetworkReachability.m; sourceTree = "<group>"; };
+		7901A1041505F5D6003DA0DC /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		7901A1051505F5D6003DA0DC /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		7901A1061505F5D6003DA0DC /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		7901A1071505F5D6003DA0DC /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		7901A10C1505F5F4003DA0DC /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		7901A10D1505F5F4003DA0DC /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		7901A10E1505F5F4003DA0DC /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7901A10F1505F5F4003DA0DC /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7901A1101505F5F4003DA0DC /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		7901A1111505F5F4003DA0DC /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		7901A1151505F624003DA0DC /* UIImage+AutoRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoRotation.h"; sourceTree = "<group>"; };
+		7901A1161505F624003DA0DC /* UIImage+AutoRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoRotation.m"; sourceTree = "<group>"; };
+		7901A1181505F644003DA0DC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		7901A1191505F644003DA0DC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		7901A11A1505F644003DA0DC /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		7901A11B1505F644003DA0DC /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		7901A11E1505F6AE003DA0DC /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		7901A11F1505F6AE003DA0DC /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		7901A1211505F908003DA0DC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7901A1231505F914003DA0DC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7901A1251505F922003DA0DC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		7901A1271505F930003DA0DC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7901A1291505F941003DA0DC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7901A12B1505F957003DA0DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7901A12D1505F980003DA0DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7901A0611505F4B7003DA0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901A12E1505F980003DA0DC /* SystemConfiguration.framework in Frameworks */,
+				7901A12C1505F957003DA0DC /* Security.framework in Frameworks */,
+				7901A1281505F930003DA0DC /* CoreLocation.framework in Frameworks */,
+				7901A1261505F922003DA0DC /* libicucore.dylib in Frameworks */,
+				7901A1241505F914003DA0DC /* ImageIO.framework in Frameworks */,
+				7901A1221505F908003DA0DC /* AssetsLibrary.framework in Frameworks */,
+				7901A0691505F4B7003DA0DC /* UIKit.framework in Frameworks */,
+				7901A06B1505F4B7003DA0DC /* Foundation.framework in Frameworks */,
+				7901A06D1505F4B7003DA0DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7901A07B1505F4B7003DA0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901A0811505F4B8003DA0DC /* SenTestingKit.framework in Frameworks */,
+				7901A0821505F4B8003DA0DC /* UIKit.framework in Frameworks */,
+				7901A0831505F4B8003DA0DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7901A0591505F4B7003DA0DC = {
+			isa = PBXGroup;
+			children = (
+				7901A06E1505F4B7003DA0DC /* PhotoSubmitterExample */,
+				7901A09B1505F4E1003DA0DC /* PhotoSubmitter */,
+				7901A0861505F4B8003DA0DC /* PhotoSubmitterExampleTests */,
+				7901A0671505F4B7003DA0DC /* Frameworks */,
+				7901A1251505F922003DA0DC /* libicucore.dylib */,
+				7901A0651505F4B7003DA0DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7901A0651505F4B7003DA0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0641505F4B7003DA0DC /* PhotoSubmitterExample.app */,
+				7901A07F1505F4B7003DA0DC /* PhotoSubmitterExampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7901A0671505F4B7003DA0DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1211505F908003DA0DC /* AssetsLibrary.framework */,
+				7901A1291505F941003DA0DC /* CFNetwork.framework */,
+				7901A06C1505F4B7003DA0DC /* CoreGraphics.framework */,
+				7901A1271505F930003DA0DC /* CoreLocation.framework */,
+				7901A06A1505F4B7003DA0DC /* Foundation.framework */,
+				7901A1231505F914003DA0DC /* ImageIO.framework */,
+				7901A12B1505F957003DA0DC /* Security.framework */,
+				7901A0801505F4B8003DA0DC /* SenTestingKit.framework */,
+				7901A12D1505F980003DA0DC /* SystemConfiguration.framework */,
+				7901A0681505F4B7003DA0DC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7901A06E1505F4B7003DA0DC /* PhotoSubmitterExample */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0771505F4B7003DA0DC /* AppDelegate.h */,
+				7901A0781505F4B7003DA0DC /* AppDelegate.m */,
+				7901A06F1505F4B7003DA0DC /* Supporting Files */,
+			);
+			path = PhotoSubmitterExample;
+			sourceTree = "<group>";
+		};
+		7901A06F1505F4B7003DA0DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0701505F4B7003DA0DC /* PhotoSubmitterExample-Info.plist */,
+				7901A0711505F4B7003DA0DC /* InfoPlist.strings */,
+				7901A0741505F4B7003DA0DC /* main.m */,
+				7901A0761505F4B7003DA0DC /* PhotoSubmitterExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7901A0861505F4B8003DA0DC /* PhotoSubmitterExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7901A08C1505F4B8003DA0DC /* PhotoSubmitterExampleTests.h */,
+				7901A08D1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m */,
+				7901A0871505F4B8003DA0DC /* Supporting Files */,
+			);
+			path = PhotoSubmitterExampleTests;
+			sourceTree = "<group>";
+		};
+		7901A0871505F4B8003DA0DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0881505F4B8003DA0DC /* PhotoSubmitterExampleTests-Info.plist */,
+				7901A0891505F4B8003DA0DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7901A09B1505F4E1003DA0DC /* PhotoSubmitter */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0F61505F587003DA0DC /* UtilityCategories */,
+				7901A09C1505F4E1003DA0DC /* Libraries */,
+				7901A09D1505F4E1003DA0DC /* PhotoSubmitter.h */,
+				7901A09E1505F4E1003DA0DC /* PhotoSubmitter.m */,
+				7901A09F1505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.h */,
+				7901A0A01505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m */,
+				7901A0A11505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.h */,
+				7901A0A21505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m */,
+				7901A0A31505F4E1003DA0DC /* PhotoSubmitterAPIKey-template.h */,
+				7901A0A41505F4E1003DA0DC /* PhotoSubmitterAPIKey.h */,
+				7901A0A51505F4E1003DA0DC /* PhotoSubmitterFactory.h */,
+				7901A0A61505F4E1003DA0DC /* PhotoSubmitterFactory.m */,
+				7901A0A71505F4E1003DA0DC /* PhotoSubmitterImageEntity.h */,
+				7901A0A81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m */,
+				7901A0A91505F4E1003DA0DC /* PhotoSubmitterManager.h */,
+				7901A0AA1505F4E1003DA0DC /* PhotoSubmitterManager.m */,
+				7901A0AB1505F4E1003DA0DC /* PhotoSubmitterOperation.h */,
+				7901A0AC1505F4E1003DA0DC /* PhotoSubmitterOperation.m */,
+				7901A0AD1505F4E1003DA0DC /* PhotoSubmitterProtocol.h */,
+				7901A0AE1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.h */,
+				7901A0AF1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m */,
+				7901A0B01505F4E1003DA0DC /* PhotoSubmitterSettings.h */,
+				7901A0B11505F4E1003DA0DC /* PhotoSubmitterSettings.m */,
+				7901A0B21505F4E1003DA0DC /* PSLang.h */,
+				7901A0B31505F4E1003DA0DC /* PSLang.m */,
+				7901A0B41505F4E1003DA0DC /* README.md */,
+				7901A0B51505F4E1003DA0DC /* Resources */,
+				7901A0BB1505F4E1003DA0DC /* Services */,
+				7901A0C51505F4E1003DA0DC /* Settings */,
+				7901A0D31505F4E1003DA0DC /* strings.sh */,
+			);
+			name = PhotoSubmitter;
+			path = ../PhotoSubmitter;
+			sourceTree = "<group>";
+		};
+		7901A09C1505F4E1003DA0DC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1001505F5D6003DA0DC /* FBNetworkReachability */,
+				7901A1031505F5D6003DA0DC /* PDKeychainBindingsController */,
+				7901A0F21505F531003DA0DC /* ios-queue-object */,
+				7901A10B1505F5F4003DA0DC /* UIImage-categories */,
+				7901A0EE1505F50E003DA0DC /* RegexKitLite */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		7901A0B51505F4E1003DA0DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0B61505F4E1003DA0DC /* Localizations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7901A0B61505F4E1003DA0DC /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0B71505F4E1003DA0DC /* PhotoSubmitter.strings */,
+				7901A0BA1505F4E1003DA0DC /* strings.txt */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		7901A0BB1505F4E1003DA0DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0BC1505F4E1003DA0DC /* File */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7901A0BC1505F4E1003DA0DC /* File */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0BD1505F4E1003DA0DC /* FilePhotoSubmitter.h */,
+				7901A0BE1505F4E1003DA0DC /* FilePhotoSubmitter.m */,
+				7901A0BF1505F4E1003DA0DC /* Resources */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		7901A0BF1505F4E1003DA0DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0C01505F4E1003DA0DC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7901A0C01505F4E1003DA0DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0C11505F4E1003DA0DC /* file_16.png */,
+				7901A0C21505F4E1003DA0DC /* file_16@2x.png */,
+				7901A0C31505F4E1003DA0DC /* file_32.png */,
+				7901A0C41505F4E1003DA0DC /* file_32@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7901A0C51505F4E1003DA0DC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0C61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.h */,
+				7901A0C71505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m */,
+				7901A0C81505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.h */,
+				7901A0C91505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m */,
+				7901A0CA1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.h */,
+				7901A0CB1505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m */,
+				7901A0CC1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.h */,
+				7901A0CD1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m */,
+				7901A0CE1505F4E1003DA0DC /* PhotoSubmitterSettingTableViewProtocol.h */,
+				7901A0CF1505F4E1003DA0DC /* PhotoSubmitterSwitch.h */,
+				7901A0D01505F4E1003DA0DC /* PhotoSubmitterSwitch.m */,
+				7901A0D11505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.h */,
+				7901A0D21505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7901A0EE1505F50E003DA0DC /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0EF1505F50E003DA0DC /* RegexKitLite.h */,
+				7901A0F01505F50E003DA0DC /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		7901A0F21505F531003DA0DC /* ios-queue-object */ = {
+			isa = PBXGroup;
+			children = (
+				7901A0F31505F531003DA0DC /* NSMutableArray+QueueAdditions.h */,
+				7901A0F41505F531003DA0DC /* NSMutableArray+QueueAdditions.m */,
+			);
+			path = "ios-queue-object";
+			sourceTree = "<group>";
+		};
+		7901A0F61505F587003DA0DC /* UtilityCategories */ = {
+			isa = PBXGroup;
+			children = (
+				7901A11E1505F6AE003DA0DC /* base64.c */,
+				7901A11F1505F6AE003DA0DC /* base64.h */,
+				7901A0F71505F587003DA0DC /* NSData+Digest.h */,
+				7901A0F81505F587003DA0DC /* NSData+Digest.m */,
+				7901A0F91505F587003DA0DC /* UIImage+Digest.h */,
+				7901A0FA1505F587003DA0DC /* UIImage+Digest.m */,
+				7901A0FD1505F5B1003DA0DC /* UIImage+EXIF.h */,
+				7901A0FE1505F5B1003DA0DC /* UIImage+EXIF.m */,
+				7901A1151505F624003DA0DC /* UIImage+AutoRotation.h */,
+				7901A1161505F624003DA0DC /* UIImage+AutoRotation.m */,
+				7901A1181505F644003DA0DC /* NSData+Base64.h */,
+				7901A1191505F644003DA0DC /* NSData+Base64.m */,
+				7901A11A1505F644003DA0DC /* NSString+Base64.h */,
+				7901A11B1505F644003DA0DC /* NSString+Base64.m */,
+			);
+			path = UtilityCategories;
+			sourceTree = "<group>";
+		};
+		7901A1001505F5D6003DA0DC /* FBNetworkReachability */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1011505F5D6003DA0DC /* FBNetworkReachability.h */,
+				7901A1021505F5D6003DA0DC /* FBNetworkReachability.m */,
+			);
+			path = FBNetworkReachability;
+			sourceTree = "<group>";
+		};
+		7901A1031505F5D6003DA0DC /* PDKeychainBindingsController */ = {
+			isa = PBXGroup;
+			children = (
+				7901A1041505F5D6003DA0DC /* PDKeychainBindings.h */,
+				7901A1051505F5D6003DA0DC /* PDKeychainBindings.m */,
+				7901A1061505F5D6003DA0DC /* PDKeychainBindingsController.h */,
+				7901A1071505F5D6003DA0DC /* PDKeychainBindingsController.m */,
+			);
+			path = PDKeychainBindingsController;
+			sourceTree = "<group>";
+		};
+		7901A10B1505F5F4003DA0DC /* UIImage-categories */ = {
+			isa = PBXGroup;
+			children = (
+				7901A10C1505F5F4003DA0DC /* UIImage+Alpha.h */,
+				7901A10D1505F5F4003DA0DC /* UIImage+Alpha.m */,
+				7901A10E1505F5F4003DA0DC /* UIImage+Resize.h */,
+				7901A10F1505F5F4003DA0DC /* UIImage+Resize.m */,
+				7901A1101505F5F4003DA0DC /* UIImage+RoundedCorner.h */,
+				7901A1111505F5F4003DA0DC /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage-categories";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7901A0631505F4B7003DA0DC /* PhotoSubmitterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7901A0911505F4B8003DA0DC /* Build configuration list for PBXNativeTarget "PhotoSubmitterExample" */;
+			buildPhases = (
+				7901A0601505F4B7003DA0DC /* Sources */,
+				7901A0611505F4B7003DA0DC /* Frameworks */,
+				7901A0621505F4B7003DA0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSubmitterExample;
+			productName = PhotoSubmitterExample;
+			productReference = 7901A0641505F4B7003DA0DC /* PhotoSubmitterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7901A07E1505F4B7003DA0DC /* PhotoSubmitterExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7901A0941505F4B8003DA0DC /* Build configuration list for PBXNativeTarget "PhotoSubmitterExampleTests" */;
+			buildPhases = (
+				7901A07A1505F4B7003DA0DC /* Sources */,
+				7901A07B1505F4B7003DA0DC /* Frameworks */,
+				7901A07C1505F4B7003DA0DC /* Resources */,
+				7901A07D1505F4B7003DA0DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7901A0851505F4B8003DA0DC /* PBXTargetDependency */,
+			);
+			name = PhotoSubmitterExampleTests;
+			productName = PhotoSubmitterExampleTests;
+			productReference = 7901A07F1505F4B7003DA0DC /* PhotoSubmitterExampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7901A05B1505F4B7003DA0DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7901A05E1505F4B7003DA0DC /* Build configuration list for PBXProject "PhotoSubmitterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 7901A0591505F4B7003DA0DC;
+			productRefGroup = 7901A0651505F4B7003DA0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7901A0631505F4B7003DA0DC /* PhotoSubmitterExample */,
+				7901A07E1505F4B7003DA0DC /* PhotoSubmitterExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7901A0621505F4B7003DA0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901A0731505F4B7003DA0DC /* InfoPlist.strings in Resources */,
+				7901A0DE1505F4E1003DA0DC /* README.md in Resources */,
+				7901A0DF1505F4E1003DA0DC /* PhotoSubmitter.strings in Resources */,
+				7901A0E01505F4E1003DA0DC /* strings.txt in Resources */,
+				7901A0E21505F4E1003DA0DC /* file_16.png in Resources */,
+				7901A0E31505F4E1003DA0DC /* file_16@2x.png in Resources */,
+				7901A0E41505F4E1003DA0DC /* file_32.png in Resources */,
+				7901A0E51505F4E1003DA0DC /* file_32@2x.png in Resources */,
+				7901A0EC1505F4E1003DA0DC /* strings.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7901A07C1505F4B7003DA0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901A08B1505F4B8003DA0DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7901A07D1505F4B7003DA0DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7901A0601505F4B7003DA0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901A0751505F4B7003DA0DC /* main.m in Sources */,
+				7901A0791505F4B7003DA0DC /* AppDelegate.m in Sources */,
+				7901A0D41505F4E1003DA0DC /* PhotoSubmitter.m in Sources */,
+				7901A0D51505F4E1003DA0DC /* PhotoSubmitterAccountTableViewController.m in Sources */,
+				7901A0D61505F4E1003DA0DC /* PhotoSubmitterAlbumEntity.m in Sources */,
+				7901A0D71505F4E1003DA0DC /* PhotoSubmitterFactory.m in Sources */,
+				7901A0D81505F4E1003DA0DC /* PhotoSubmitterImageEntity.m in Sources */,
+				7901A0D91505F4E1003DA0DC /* PhotoSubmitterManager.m in Sources */,
+				7901A0DA1505F4E1003DA0DC /* PhotoSubmitterOperation.m in Sources */,
+				7901A0DB1505F4E1003DA0DC /* PhotoSubmitterSequencialOperationQueue.m in Sources */,
+				7901A0DC1505F4E1003DA0DC /* PhotoSubmitterSettings.m in Sources */,
+				7901A0DD1505F4E1003DA0DC /* PSLang.m in Sources */,
+				7901A0E11505F4E1003DA0DC /* FilePhotoSubmitter.m in Sources */,
+				7901A0E61505F4E1003DA0DC /* AlbumPhotoSubmitterSettingTableViewController.m in Sources */,
+				7901A0E71505F4E1003DA0DC /* CreateAlbumPhotoSubmitterSettingViewController.m in Sources */,
+				7901A0E81505F4E1003DA0DC /* PhotoSubmitterServiceSettingTableViewController.m in Sources */,
+				7901A0E91505F4E1003DA0DC /* PhotoSubmitterSettingTableViewController.m in Sources */,
+				7901A0EA1505F4E1003DA0DC /* PhotoSubmitterSwitch.m in Sources */,
+				7901A0EB1505F4E1003DA0DC /* SimplePhotoSubmitterSettingTableViewController.m in Sources */,
+				7901A0F11505F50E003DA0DC /* RegexKitLite.m in Sources */,
+				7901A0F51505F531003DA0DC /* NSMutableArray+QueueAdditions.m in Sources */,
+				7901A0FB1505F587003DA0DC /* NSData+Digest.m in Sources */,
+				7901A0FC1505F587003DA0DC /* UIImage+Digest.m in Sources */,
+				7901A0FF1505F5B1003DA0DC /* UIImage+EXIF.m in Sources */,
+				7901A1081505F5D6003DA0DC /* FBNetworkReachability.m in Sources */,
+				7901A1091505F5D6003DA0DC /* PDKeychainBindings.m in Sources */,
+				7901A10A1505F5D6003DA0DC /* PDKeychainBindingsController.m in Sources */,
+				7901A1121505F5F4003DA0DC /* UIImage+Alpha.m in Sources */,
+				7901A1131505F5F4003DA0DC /* UIImage+Resize.m in Sources */,
+				7901A1141505F5F4003DA0DC /* UIImage+RoundedCorner.m in Sources */,
+				7901A1171505F624003DA0DC /* UIImage+AutoRotation.m in Sources */,
+				7901A11C1505F644003DA0DC /* NSData+Base64.m in Sources */,
+				7901A11D1505F644003DA0DC /* NSString+Base64.m in Sources */,
+				7901A1201505F6AE003DA0DC /* base64.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7901A07A1505F4B7003DA0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7901A08E1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7901A0851505F4B8003DA0DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7901A0631505F4B7003DA0DC /* PhotoSubmitterExample */;
+			targetProxy = 7901A0841505F4B8003DA0DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7901A0711505F4B7003DA0DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7901A0721505F4B7003DA0DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7901A0891505F4B8003DA0DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7901A08A1505F4B8003DA0DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7901A0B71505F4E1003DA0DC /* PhotoSubmitter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7901A0B81505F4E1003DA0DC /* en */,
+				7901A0B91505F4E1003DA0DC /* ja */,
+			);
+			name = PhotoSubmitter.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7901A08F1505F4B8003DA0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7901A0901505F4B8003DA0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7901A0921505F4B8003DA0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSubmitterExample/PhotoSubmitterExample-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSubmitterExample/PhotoSubmitterExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7901A0931505F4B8003DA0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSubmitterExample/PhotoSubmitterExample-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSubmitterExample/PhotoSubmitterExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7901A0951505F4B8003DA0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoSubmitterExample.app/PhotoSubmitterExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSubmitterExample/PhotoSubmitterExample-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSubmitterExampleTests/PhotoSubmitterExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7901A0961505F4B8003DA0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoSubmitterExample.app/PhotoSubmitterExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoSubmitterExample/PhotoSubmitterExample-Prefix.pch";
+				INFOPLIST_FILE = "PhotoSubmitterExampleTests/PhotoSubmitterExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7901A05E1505F4B7003DA0DC /* Build configuration list for PBXProject "PhotoSubmitterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7901A08F1505F4B8003DA0DC /* Debug */,
+				7901A0901505F4B8003DA0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7901A0911505F4B8003DA0DC /* Build configuration list for PBXNativeTarget "PhotoSubmitterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7901A0921505F4B8003DA0DC /* Debug */,
+				7901A0931505F4B8003DA0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7901A0941505F4B8003DA0DC /* Build configuration list for PBXNativeTarget "PhotoSubmitterExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7901A0951505F4B8003DA0DC /* Debug */,
+				7901A0961505F4B8003DA0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7901A05B1505F4B7003DA0DC /* Project object */;
+}
