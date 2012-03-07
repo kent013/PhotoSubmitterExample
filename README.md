@@ -4,8 +4,6 @@ This repository is example project of [PhotoSubmitter](https://github.com/kent01
 
 This example project demonstrates minimum implementation of PhotoSubmitter. If you want to know more details, please visit [tottepost project](https://github.com/kent013/tottepost). Originally PhotoSubmitter library is designed to work with tottepost, so tottepost is demonstrates all of the functions in PhotoSubmitter.
 
-<img src="http://github.com/kent013/tottepost/raw/master/AppStore/screenshot3_en.png"
- alt="ScreenShot3" title="ScreenShot3" height = 240 >
 <img src="http://github.com/kent013/tottepost/raw/master/AppStore/screenshot4_en.png"
  alt="ScreenShot4" title="ScreenShot4" height = 240 />
 <img src="http://github.com/kent013/tottepost/raw/master/AppStore/screenshot5_en.png"
