@@ -229,6 +229,7 @@
 		7901AC4F15067CAB003DA0DC /* twitter_32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7901ABB815067CAA003DA0DC /* twitter_32@2x.png */; };
 		7901AC5015067CAB003DA0DC /* TwitterPhotoSubmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901ABBA15067CAA003DA0DC /* TwitterPhotoSubmitter.m */; };
 		7901AC5115067CAB003DA0DC /* TwitterPhotoSubmitterSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901ABBC15067CAA003DA0DC /* TwitterPhotoSubmitterSettingTableViewController.m */; };
+		7901B05915076E82003DA0DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901B05815076E82003DA0DC /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -989,6 +990,8 @@
 		7901ABBA15067CAA003DA0DC /* TwitterPhotoSubmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterPhotoSubmitter.m; sourceTree = "<group>"; };
 		7901ABBB15067CAA003DA0DC /* TwitterPhotoSubmitterSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterPhotoSubmitterSettingTableViewController.h; sourceTree = "<group>"; };
 		7901ABBC15067CAA003DA0DC /* TwitterPhotoSubmitterSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterPhotoSubmitterSettingTableViewController.m; sourceTree = "<group>"; };
+		7901B05715076E82003DA0DC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7901B05815076E82003DA0DC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1073,9 +1076,11 @@
 		7901A06E1505F4B7003DA0DC /* PhotoSubmitterExample */ = {
 			isa = PBXGroup;
 			children = (
+				7901A06F1505F4B7003DA0DC /* Supporting Files */,
 				7901A0771505F4B7003DA0DC /* AppDelegate.h */,
 				7901A0781505F4B7003DA0DC /* AppDelegate.m */,
-				7901A06F1505F4B7003DA0DC /* Supporting Files */,
+				7901B05715076E82003DA0DC /* MainViewController.h */,
+				7901B05815076E82003DA0DC /* MainViewController.m */,
 			);
 			path = PhotoSubmitterExample;
 			sourceTree = "<group>";
@@ -2807,6 +2812,7 @@
 				7901AC4715067CAB003DA0DC /* PicasaPhotoSubmitter.m in Sources */,
 				7901AC5015067CAB003DA0DC /* TwitterPhotoSubmitter.m in Sources */,
 				7901AC5115067CAB003DA0DC /* TwitterPhotoSubmitterSettingTableViewController.m in Sources */,
+				7901B05915076E82003DA0DC /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
