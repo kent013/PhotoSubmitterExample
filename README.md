@@ -12,3 +12,18 @@ This example project demonstrates minimum implementation of PhotoSubmitter. If y
 Build the Project
 -------------------------
 To build and test functionalities, please read [PhotoSubmitter's README](https://github.com/kent013/PhotoSubmitter). If you want to use OAuth enabled services, you require to obtain API-Keys and API-Secret from services. Also some services require to configure Custom URI Scheme.
+
+Since this project using Camera, currently not works on simulator. Please run on device.
+
+And, just after cloning the repository, you must run commands below to init and update submodule.
+```
+git submodule init
+git submodule update
+```
+
+GIT TIPS
+------------------------------------
+For contributors reminder, if you want to update submodule to latest revision, type next command.
+```
+git submodule foreach 'git checkout master; git pull'
+```
