@@ -23,8 +23,12 @@
  * initialization
  */
 - (void)setupInitialState{
+    //You can enable specific services like this
+    //[PhotoSubmitterManager unregisterAllPhotoSubmitters];
+    //[PhotoSubmitterManager registerPhotoSubmitterWithTypeNames:[NSArray arrayWithObjects: @"facebook", @"twitter", @"dropbox", @"minus", @"file", nil]];
+    
     //these three delegates are important.
-    [PhotoSubmitterManager sharedInstance].photoDelegate = self;
+    [[PhotoSubmitterManager sharedInstance] addPhotoDelegate:self];
     [PhotoSubmitterManager sharedInstance].authControllerDelegate = self;
     [PhotoSubmitterManager sharedInstance].submitPhotoWithOperations = YES;
     
