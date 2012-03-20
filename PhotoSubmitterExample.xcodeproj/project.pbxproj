@@ -281,6 +281,12 @@
 		793F52F1150F97C10026CE62 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F52F0150F97C10026CE62 /* CoreImage.framework */; };
 		793F52F3150F97C80026CE62 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F52F2150F97C80026CE62 /* Accelerate.framework */; };
 		793F52F5150F981A0026CE62 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793F52F4150F981A0026CE62 /* MobileCoreServices.framework */; };
+		799BEE4715185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BEE4615185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m */; };
+		799BEE4D15185E5E008B46B7 /* PhotoSubmitterVideoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BEE4B15185E5E008B46B7 /* PhotoSubmitterVideoEntity.m */; };
+		799BEE4E15185E74008B46B7 /* PhotoSubmitterContentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BEE4915185E5E008B46B7 /* PhotoSubmitterContentEntity.m */; };
+		799BEE4F15185E7C008B46B7 /* PhotoSubmitterVideoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BEE4B15185E5E008B46B7 /* PhotoSubmitterVideoEntity.m */; };
+		799BEE5015185E80008B46B7 /* PhotoSubmitterContentEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BEE4915185E5E008B46B7 /* PhotoSubmitterContentEntity.m */; };
+		799BEE5115185E8F008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BEE4615185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -406,7 +412,6 @@
 		793F4EA7150F95A70026CE62 /* PhotoSubmitterAlbumEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAlbumEntity.h; sourceTree = "<group>"; };
 		793F4EA8150F95A70026CE62 /* PhotoSubmitterAlbumEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterAlbumEntity.m; sourceTree = "<group>"; };
 		793F4EA9150F95A70026CE62 /* PhotoSubmitterAPIKey-template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoSubmitterAPIKey-template.h"; sourceTree = "<group>"; };
-		793F4EAA150F95A70026CE62 /* PhotoSubmitterAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterAPIKey.h; sourceTree = "<group>"; };
 		793F4EAB150F95A70026CE62 /* PhotoSubmitterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterFactory.h; sourceTree = "<group>"; };
 		793F4EAC150F95A70026CE62 /* PhotoSubmitterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterFactory.m; sourceTree = "<group>"; };
 		793F4EAD150F95A70026CE62 /* PhotoSubmitterImageEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterImageEntity.h; sourceTree = "<group>"; };
@@ -1169,6 +1174,12 @@
 		793F52F0150F97C10026CE62 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		793F52F2150F97C80026CE62 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		793F52F4150F981A0026CE62 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		799BEE4515185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterServiceSettingViewFactory.h; sourceTree = "<group>"; };
+		799BEE4615185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterServiceSettingViewFactory.m; sourceTree = "<group>"; };
+		799BEE4815185E5E008B46B7 /* PhotoSubmitterContentEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterContentEntity.h; sourceTree = "<group>"; };
+		799BEE4915185E5E008B46B7 /* PhotoSubmitterContentEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterContentEntity.m; sourceTree = "<group>"; };
+		799BEE4A15185E5E008B46B7 /* PhotoSubmitterVideoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSubmitterVideoEntity.h; sourceTree = "<group>"; };
+		799BEE4B15185E5E008B46B7 /* PhotoSubmitterVideoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSubmitterVideoEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1305,11 +1316,14 @@
 				793F4EA7150F95A70026CE62 /* PhotoSubmitterAlbumEntity.h */,
 				793F4EA8150F95A70026CE62 /* PhotoSubmitterAlbumEntity.m */,
 				793F4EA9150F95A70026CE62 /* PhotoSubmitterAPIKey-template.h */,
-				793F4EAA150F95A70026CE62 /* PhotoSubmitterAPIKey.h */,
 				793F4EAB150F95A70026CE62 /* PhotoSubmitterFactory.h */,
 				793F4EAC150F95A70026CE62 /* PhotoSubmitterFactory.m */,
 				793F4EAD150F95A70026CE62 /* PhotoSubmitterImageEntity.h */,
 				793F4EAE150F95A70026CE62 /* PhotoSubmitterImageEntity.m */,
+				799BEE4815185E5E008B46B7 /* PhotoSubmitterContentEntity.h */,
+				799BEE4915185E5E008B46B7 /* PhotoSubmitterContentEntity.m */,
+				799BEE4A15185E5E008B46B7 /* PhotoSubmitterVideoEntity.h */,
+				799BEE4B15185E5E008B46B7 /* PhotoSubmitterVideoEntity.m */,
 				793F4EAF150F95A70026CE62 /* PhotoSubmitterManager.h */,
 				793F4EB0150F95A70026CE62 /* PhotoSubmitterManager.m */,
 				793F4EB1150F95A70026CE62 /* PhotoSubmitterOperation.h */,
@@ -2834,6 +2848,8 @@
 				793F51D8150F95A70026CE62 /* PhotoSubmitterServiceSettingTableViewController.m */,
 				793F51D9150F95A70026CE62 /* PhotoSubmitterSettingTableViewController.h */,
 				793F51DA150F95A70026CE62 /* PhotoSubmitterSettingTableViewController.m */,
+				799BEE4515185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.h */,
+				799BEE4615185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m */,
 				793F51DB150F95A70026CE62 /* PhotoSubmitterSettingTableViewProtocol.h */,
 				793F51DC150F95A70026CE62 /* PhotoSubmitterSwitch.h */,
 				793F51DD150F95A70026CE62 /* PhotoSubmitterSwitch.m */,
@@ -3223,6 +3239,9 @@
 				793F52ED150F95A80026CE62 /* UIImage+AutoRotation.m in Sources */,
 				793F52EE150F95A80026CE62 /* UIImage+Digest.m in Sources */,
 				793F52EF150F95A80026CE62 /* UIImage+EXIF.m in Sources */,
+				799BEE4E15185E74008B46B7 /* PhotoSubmitterContentEntity.m in Sources */,
+				799BEE4F15185E7C008B46B7 /* PhotoSubmitterVideoEntity.m in Sources */,
+				799BEE5115185E8F008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3231,6 +3250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7901A08E1505F4B8003DA0DC /* PhotoSubmitterExampleTests.m in Sources */,
+				799BEE4715185E28008B46B7 /* PhotoSubmitterServiceSettingViewFactory.m in Sources */,
+				799BEE4D15185E5E008B46B7 /* PhotoSubmitterVideoEntity.m in Sources */,
+				799BEE5015185E80008B46B7 /* PhotoSubmitterContentEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
